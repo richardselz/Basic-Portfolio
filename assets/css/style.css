@@ -26,6 +26,11 @@ h1, h2, h3, h4, h5 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+h1 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
 nav {
     width: 100%;
     background: white;
@@ -36,9 +41,11 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #666666;
+    color: #cccccc;
     line-height: 80px;
     margin: 0 20px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 nav a:nth-child(3) {
@@ -89,7 +96,9 @@ section {
 
 p {
     top: -2px;
-    font-size: 24px;
+    font-size: 20px;
+    letter-spacing: 0.25px;
+    line-height: 31px;
 }
 
 aside {
@@ -101,7 +110,8 @@ aside {
 
 h2 {
     color: #4aaaa5;
-    font-size: 22px;
+    font-size: 21px;
+    font-weight: bold;
 }
 
 hr {
