@@ -153,3 +153,35 @@ footer {
     line-height: 95px;
     color: #cccccc;
 }
+
+.hangman {
+    background-image: url("http://lorempixel.com/g/275/205/");
+    width: 275px;
+    height: 205px;
+    float: left;
+    border: 0;
+}
+
+.hangman:nth-child(2) {
+    margin-left: 36px;
+}
+
+.hangman > h2 {
+    border: 0;
+    position: relative;
+    top: 130px;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    font-size: 25px;
+    line-height: 60px;
+    background: #4aaaa5;
+    color: white;
+    font-weight: normal;
+}
+
+.portfolio-row {
+    border: 0;
+    height: 205px;
+    margin-bottom: 60px;
+}
