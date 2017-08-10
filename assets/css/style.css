@@ -229,7 +229,7 @@ label:not(:first-child) {
 }
 textarea {
     float: left;
-    margin: 10px 0 20px;
+    margin: 0 0 20px;
     display: inline-block;
     border: 1px #cccccc solid;
     color: #cccccc;
@@ -244,4 +244,8 @@ textarea {
     color: white;
     font-size: 17px;
     margin-bottom: 40px;
+}
+
+#submit:hover {
+	opacity: 0.75;
 }
