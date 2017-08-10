@@ -3,9 +3,9 @@
 }
 
 #Alert {
-    height: 0px;
     width: 100%;
     text-align: center;
+    height: 0px;
 }
 
 #Alert a {
@@ -95,10 +95,11 @@ section {
 }
 
 p {
-    top: -2px;
+    top: -6px;
     font-size: 20px;
     letter-spacing: 0.25px;
     line-height: 31px;
+    position: relative;
 }
 
 aside {
