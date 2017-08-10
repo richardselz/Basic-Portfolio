@@ -2,6 +2,20 @@
 	margin: auto;
 }
 
+#Alert {
+    height: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+#Alert a {
+    text-decoration: none;
+}
+
+#Alert a:hover {
+    text-decoration: underline;
+}
+
 body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	background-image: url("../images/background.png");
