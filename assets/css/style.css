@@ -239,8 +239,12 @@ input::placeholder {
     color: #cccccc;
 }
 
+label {
+	float: left;
+	margin-bottom: 5px;
+}
+
 label:not(:first-child) {
-    float: left;
     margin-top: 20px;
     display: inline-block;
 }
