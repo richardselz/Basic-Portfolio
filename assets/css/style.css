@@ -253,4 +253,5 @@ textarea::placeholder {
 
 #submit:hover {
 	opacity: 0.75;
+	cursor: pointer;
 }
