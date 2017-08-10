@@ -227,6 +227,7 @@ label:not(:first-child) {
     margin-top: 20px;
     display: inline-block;
 }
+
 textarea {
     float: left;
     margin: 0 0 20px;
@@ -235,6 +236,10 @@ textarea {
     color: #cccccc;
     padding-left: 10px;
     width: 572px;
+}
+
+textarea::placeholder {
+	color: #cccccc;
 }
 
 #submit {
