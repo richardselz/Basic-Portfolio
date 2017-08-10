@@ -216,6 +216,12 @@ input {
     float: left;
     border: 1px #cccccc solid;
     padding-left: 10px;
+    color: #cccccc;
+}
+
+input:focus {
+	border: 1px #4aaaa5 solid;
+	outline: none;
 }
 
 input::placeholder {
@@ -236,6 +242,11 @@ textarea {
     color: #cccccc;
     padding-left: 10px;
     width: 572px;
+}
+
+textarea:focus {
+	border: 1px #4aaaa5 solid;
+	outline: none;
 }
 
 textarea::placeholder {
