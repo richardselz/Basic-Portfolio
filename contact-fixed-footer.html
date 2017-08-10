@@ -17,10 +17,17 @@
         <main>
             <section>
                 <div id="content">
-                    <header><h1>About Me</h1></header>
-                    <img src="assets/images/cat.PNG" alt="cat">
-                    <p>Marshmallow jelly soufflé pastry biscuit gummi bears tootsie roll tootsie roll gingerbread. Cotton candy muffin gingerbread fruitcake. Sweet roll soufflé topping wafer croissant oat cake gummi bears.<br/><br/>
-                        Jelly-o cheesecake dessert fruitcake ice cream brownie liquorice soufflé. Caramels biscuit gummi bears tiramisu chupa chups. Croissant macaroon cotton candy cake pudding.</p>
+                    <header><h1>Contact</h1></header>
+                    <form id="top-form">
+                        <label>Name</label><br/>
+                        <input type="text" name="name" placeholder="John Smith"><br/>
+                        <label>Email</label><br/>
+                        <input type="text" name="email" placeholder="example@gmail.com"><br/>
+                        <label>Message</label><br/>
+                        <textarea name="message" form="top-form" style="height:200px;">Enter your message here.. </textarea><br/>
+                        <input type="submit" value="Submit" id="submit">
+                    </form>
+                    
                 </div>
             </section>
             <aside>
@@ -33,7 +40,7 @@
                 </div>
             </aside>
         </main>
-        <footer id="footer-fixed">
+        <footer id="footer-fixed"> <!--id="footer-fixed" (move this into the footer tag)-->
             <div id="copyright">
                 &copy; Copyright 2017 Your Name
             </div>
